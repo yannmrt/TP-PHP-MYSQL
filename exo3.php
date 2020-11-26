@@ -8,3 +8,7 @@ try {
     echo "Erreur lors de la connexion à la base de donnée";
 }
 
+// code source de la page 
+highlight_file(__FILE__);
+echo '<a href="."><button>Retour en arrière</button></a>';
+

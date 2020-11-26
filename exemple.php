@@ -32,3 +32,9 @@ if(isset($_POST['submit'])) {
         Pass<input type="text" name="password">
         <input type="submit" value="submit" name="submit">
 </form>
+
+<?php
+// code source de la page 
+highlight_file(__FILE__);
+?> 
+<?php echo '<a href="."><button>Retour en arrière</button></a>'; ?>
